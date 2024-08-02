@@ -1,6 +1,6 @@
-//Dado o array let animais = ['cachorro', 'gato', 'pássaro', 'peixe'], use o método slice() para criar um novo array contendo os elementos do índice 1 ao índice 3 (não inclusivo). Exiba o novo array.
+// Dado o array let frutas = ['maçã', 'banana'] e o array let maisFrutas = ['laranja', 'pera'], use o método concat() para combinar os dois arrays em um novo array e exiba o resultado.
 
-let animais = ["cachorro", "gato", "pássaro", "peixe"]
-let panelinhaDosAnimais = animais.slice(1, 3)
+let frutas = ["maçã", "banana"]
+let maisFrutas = ["laranja", "pera"]
 
-console.log(panelinhaDosAnimais);
+console.log(frutas.concat(maisFrutas))
